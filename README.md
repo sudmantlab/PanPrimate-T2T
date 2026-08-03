@@ -67,9 +67,7 @@ For general questions regarding the PanPrimate-T2T Project, please contact [psud
 * **Erik Garrison** - [egarris5@uthsc.edu](mailto:egarris5@uthsc.edu)
 * **Glennis Logsdon** - [glogsdon@pennmedicine.upenn.edu](mailto:glogsdon@pennmedicine.upenn.edu)
 
----
-
-### The Team
+#### The Team
 
 - **University of California, Berkeley**
     - Peter Sudmant

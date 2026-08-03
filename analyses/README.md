@@ -14,6 +14,6 @@ The primary publications accompanying the PanPrimate-T2T project focus on core a
 * **Functional Annotation & Evolutionary Constraint (`/analyses/annotation/`):**
   Integration of PacBio Kinnex full-length transcriptomics and comparative pipelines (Ensembl VEP, OrthoFinder) to map gene family evolution, functional variant constraint, and regulatory sequence conservation.
 
-> **Note on Reproducibility:** Each analysis subdirectory contains Nextflow/Snakemake pipeline manifests, containerized environment specifications (Docker/Singularity), and step-by-step documentation detailing how to re-run analyses against the S3 dataset.
+> **Note on Reproducibility:** Each analysis subdirectory contains bash/Snakemake pipeline manifests, environment specifications, and step-by-step documentation detailing how analyses were run.
 
 Each subdirectory's inputs are the released data products described in [`../README_dataset.md`](../README_dataset.md) — assemblies, annotations, variant calls, and comparative alignments, referenced by S3 path or `genome_id` from [`../manifests/sample_data_manifest.csv`](../manifests/sample_data_manifest.csv).

@@ -31,7 +31,6 @@
 | `genome_hap1`, `genome_hap2` | S3 path to each phased haplotype assembly |
 | `genome_pri`, `genome_alt` | S3 URIs for the primary and alternate assembly representations, derived from `genome_hap1`/`genome_hap2`: `genome_pri` takes the longer sequence at each homologous chromosome pair; `genome_alt` contains the shorter sequence from each pair. |
 | `annotation_gff3` | S3 path to gene annotation |
-| `variants_vcf` | S3 path to variant calls |
 | `raw_ont`, `raw_pacbio_hifi`, `raw_chromatin_capture`, `raw_kinnex_rna` | Pipe-delimited (`\|`) list of S3 paths to the run file(s) used for this version, e.g. `..._run1.pod5\|..._run2.pod5` |
 | `alignment_reads` | S3 path to HiFi reads aligned to the assembly |
 
@@ -71,11 +70,6 @@ All indexed files (BAM `.bai`, bgzip VCF/GFF3/BED `.tbi`, bgzip FASTA `.fai`) su
 # A region of aligned reads
 samtools view \
   https://primate-t2t-genomics-open.s3.amazonaws.com/species_data/PR00232/v1.0/alignments/PR00232_1.0.hifi.sorted.bam \
-  chr7:1000000-1050000
-
-# The same region's variant calls
-bcftools view \
-  https://primate-t2t-genomics-open.s3.amazonaws.com/species_data/PR00232/v1.0/variants/PR00232_1.0.vcf.gz \
   chr7:1000000-1050000
 
 # The same region's gene annotation
