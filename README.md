@@ -1,8 +1,8 @@
 # Pan-Primate Reference Genome Project (PanPrimate-T2T)
 
-Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes—limiting our ability to study primate biology, conservation, evolution, and human health. The **Pan-Primate Reference Genome Project (PanPrimate-T2T)** addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
+Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The Pan-Primate Reference Genome Project (PanPrimate-T2T) addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
 
-All samples are derived from established cell lines maintained by the **Coriell Institute for Medical Research**, ensuring renewable biological resources and long-term reproducibility.
+All samples are derived from established cell lines maintained by the Coriell Institute for Medical Research, ensuring renewable biological resources and long-term reproducibility.
 
 ---
 
@@ -13,9 +13,9 @@ Assemblies are generated using a standardized multi-platform sequencing pipeline
 - **Sequencing:** PacBio HiFi long reads, Oxford Nanopore (ONT) ultra-long reads, chromatin conformation capture (Omni-C or Pore-C), and PacBio Kinnex full-length transcriptomics.
 - **Assembly & Curation:** Assembled with [Verkko](https://github.com/marbl/verkko) and [hifiasm](https://github.com/chhylp123/hifiasm), scaffolded with [YaHS](https://github.com/c-zhou/yahs), and manually curated.
 
-This uniform approach resolves complex genomic regions—including centromeres, segmental duplications, immune loci, and sex chromosomes. Released datasets include haplotype-resolved assemblies, gene annotations, structural and small variant call sets, read alignments, and quality metrics.
+This uniform approach resolves complex genomic regions-including centromeres, segmental duplications, immune loci, and sex chromosomes. Released datasets include haplotype-resolved assemblies, gene annotations, structural and small variant call sets, read alignments, and quality metrics.
 
-The complete collection — spanning raw sequencing signals through whole-genome alignments — is expected to total **180–220 TB**.
+The complete collection - spanning raw sequencing signals through whole-genome alignments - is expected to total **180–220 TB**.
 
 - **Analysis Pipelines:** See [`analyses/README.md`](analyses/README.md) for workflows covering assembly, annotation, multi-sequence alignment, and anaysies performed as part of our publications.
 
@@ -62,10 +62,10 @@ For general questions regarding the PanPrimate-T2T Project, please contact [psud
 
 ### Project Leadership
 
-* **Peter Sudmant** — [psudmant@berkeley.edu](mailto:psudmant@berkeley.edu)
-* **Matthew Mitchell** — [mmitchell@coriell.org](mailto:mmitchell@coriell.org)
-* **Erik Garrison** — [egarris5@uthsc.edu](mailto:egarris5@uthsc.edu)
-* **Glennis Logsdon** — [glogsdon@pennmedicine.upenn.edu](mailto:glogsdon@pennmedicine.upenn.edu)
+* **Peter Sudmant** - [psudmant@berkeley.edu](mailto:psudmant@berkeley.edu)
+* **Matthew Mitchell** - [mmitchell@coriell.org](mailto:mmitchell@coriell.org)
+* **Erik Garrison** - [egarris5@uthsc.edu](mailto:egarris5@uthsc.edu)
+* **Glennis Logsdon** - [glogsdon@pennmedicine.upenn.edu](mailto:glogsdon@pennmedicine.upenn.edu)
 
 ---
 
@@ -98,5 +98,5 @@ For general questions regarding the PanPrimate-T2T Project, please contact [psud
 ## History
 
 ```
-* [date TBD]. v1.0 release — initial release of 10 genomes and associated sequencing, annotation data, and analysis scripts.
+* [date TBD]. v1.0 release - initial release of 10 genomes and associated sequencing, annotation data, and analysis scripts.
 ```
