@@ -1,64 +1,102 @@
 # Pan-Primate Reference Genome Project (PanPrimate-T2T)
 
-## Dataset Structure & Technical Documentation
+Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes—limiting our ability to study primate biology, conservation, evolution, and human health. The **Pan-Primate Reference Genome Project (PanPrimate-T2T)** addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
 
-This repository provides technical documentation for the **Pan-Primate Reference Genome Project (PanPrimate-T2T)** dataset, including dataset organization, file formats, metadata standards, and cloud-based access workflows.
-
-The PanPrimate-T2T project generates chromosome-scale, phased reference genomes and associated genomic resources for approximately 50 primate species spanning all major evolutionary lineages. The resulting resource supports:
-
-- Comparative genomics
-- Human disease and functional variant interpretation
-- Conservation biology
-- Genome assembly and annotation benchmarking
-- Machine learning and genomic AI development
-
-PanPrimate-T2T resources will be distributed through complementary public repositories, including **AWS Open Data** for cloud-scale analysis and **NCBI** for long-term archival access to sequencing data, genome assemblies, and biological sample metadata.
+All samples are derived from established cell lines maintained by the **Coriell Institute for Medical Research**, ensuring renewable biological resources and long-term reproducibility.
 
 ---
 
-# Project Overview
+## Assemblies & Data Scope
 
-Of the approximately 500 recognized primate species, the majority still lack high-quality reference genomes. This gap limits studies in:
+Assemblies are generated using a standardized multi-platform sequencing pipeline:
 
-- Primate evolution and genome diversity
-- Human-specific genetic changes and disease mechanisms
-- Conservation genetics of threatened species
-- Functional genome biology across primate lineages
+- **Sequencing:** PacBio HiFi long reads, Oxford Nanopore (ONT) ultra-long reads, chromatin conformation capture (Omni-C or Pore-C), and PacBio Kinnex full-length transcriptomics.
+- **Assembly & Curation:** Assembled with [Verkko](https://github.com/marbl/verkko) and [hifiasm](https://github.com/chhylp123/hifiasm), scaffolded with [YaHS](https://github.com/c-zhou/yahs), and manually curated.
 
-The PanPrimate-T2T project addresses this gap by generating chromosome-scale, phased reference genomes using a standardized multi-platform sequencing strategy across diverse primate species.
+This uniform approach resolves complex genomic regions—including centromeres, segmental duplications, immune loci, and sex chromosomes. Released datasets include haplotype-resolved assemblies, gene annotations, structural and small variant call sets, read alignments, and quality metrics.
 
-Genome resources include:
+The complete collection — spanning raw sequencing signals through whole-genome alignments — is expected to total **180–220 TB**.
 
-- PacBio HiFi long reads
-- Oxford Nanopore ultra-long reads
-- ONT raw signal data (POD5)
-- Omni-C chromatin capture
-- PacBio Kinnex full-length transcriptomics
-
-Assemblies are generated using modern long-read assembly approaches, including Verkko and hifiasm, scaffolded with YaHS, and refined through manual curation. Resulting resources include phased genome references, annotations, variants, and comparative genome resources.
+- **Analysis Pipelines:** See [`analyses/README.md`](analyses/README.md) for workflows covering assembly, annotation, multi-sequence alignment, and anaysies performed as part of our publications.
 
 ---
 
-# Biological Resource Information
+## Species List & Data Access
 
-For project background, biological samples, species lists, and project updates:
+- **Background & Biological Context:** See the [Coriell Pan-Primate Genome Project Page](https://www.coriell.org/1/Pan-Primate-Genome-Project) for species listings, taxonomy, and cell line details.
+- **Dataset Manifests:** See [`README_dataset.md`](README_dataset.md) and [`manifests/sample_data_manifest.csv`](manifests/sample_data_manifest.csv) for per-sample metadata, accessions, and file locations. For HAL and other multi-species comparative data, see [`comparative/README.md`](comparative/README.md).
 
-**Coriell Pan-Primate Genome Project**  
-https://www.coriell.org/1/Pan-Primate-Genome-Project
+### Cloud & Public Repository Access
 
-All genomes are generated from established Coriell cell line resources to support renewable sample access and long-term reproducibility.
+- **AWS Open Data:** Hosted for cloud-scale access without downloading multi-terabyte files.
+- **NCBI SRA / BioProject:** Archived under BioProject/BioSample accessions listed in `manifests/sample_data_manifest.csv`. <!-- TODO: add SRA/BioProject link once accessions are assigned -->
+
+Inspect the S3 bucket hierarchy via AWS CLI:
+
+```bash
+aws s3 ls s3://primate-t2t-genomics-open/species_data/ --no-sign-request
+```
+
+Full bucket layout, species IDs, and per-sample metadata: [`README_dataset.md`](README_dataset.md).
 
 ---
 
-# Public Data Resources and Access
+## Data Reuse and License
+All data is released to the public under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-The PanPrimate-T2T project will provide data through multiple complementary public resources.
+https://creativecommons.org/licenses/by/4.0/
 
-## AWS Open Data
+You are free to share and adapt this material for any purpose, including commercially, provided appropriate credit is given.
 
-The planned AWS Open Data release is designed for cloud-based genomic analysis, enabling researchers to analyze large-scale datasets without downloading multi-terabyte files.
+---
 
-Planned S3 Bucket Location:
+## Relevant Citations
 
-```text
-s3://primate-t2t-genomics-open/
+A DOI and associated publications will be added upon release.
+
+---
+
+## Contact & Team
+
+For general questions regarding the PanPrimate-T2T Project, please contact [psudmant@berkeley.edu](mailto:psudmant@berkeley.edu).
+
+### Project Leadership
+
+* **Peter Sudmant** — [psudmant@berkeley.edu](mailto:psudmant@berkeley.edu)
+* **Matthew Mitchell** — [mmitchell@coriell.org](mailto:mmitchell@coriell.org)
+* **Erik Garrison** — [egarris5@uthsc.edu](mailto:egarris5@uthsc.edu)
+* **Glennis Logsdon** — [glogsdon@pennmedicine.upenn.edu](mailto:glogsdon@pennmedicine.upenn.edu)
+
+---
+
+### The Team
+
+- **University of California, Berkeley**
+    - Peter Sudmant
+    - Scott Ferguson
+
+- **Coriell Institute for Medical Research**
+    - Matthew Mitchell
+    - Harshleen Chawla
+
+- **University of Tennessee Health Science Center**
+    - Erik Garrison
+    - Shuo Cao
+    - Andrea Guarracino
+
+- **University of Pennsylvania**
+    - Glennis Logsdon
+    - Shu-Cheng Chuang
+    - Keisuke (Keith) Oshima
+    - Shenghan Gao
+    
+- **University of California, Santa Cruz**
+    - Prajna Hebbar
+
+---
+
+## History
+
+```
+* [date TBD]. v1.0 release — initial release of 10 genomes and associated sequencing, annotation data, and analysis scripts.
+```
