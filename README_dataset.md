@@ -34,7 +34,7 @@
 | `variants_vcf` | S3 path to variant calls |
 | `raw_ont`, `raw_pacbio_hifi`, `raw_chromatin_capture`, `raw_kinnex_rna` | Pipe-delimited (`\|`) list of S3 paths to the run file(s) used for this version, e.g. `..._run1.pod5\|..._run2.pod5` |
 | `alignment_reads` | S3 path to HiFi reads aligned to the assembly |
-| `alignment_comparative` | S3 path to the comparative (MAF) alignment |
+
 
 Samples with no released version yet (`assembly_status` = `planned` or `in_progress`) have a single row with `genome_id`, `genome_version`, `is_latest`, and all data-path columns blank.
 
