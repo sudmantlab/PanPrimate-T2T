@@ -1,6 +1,6 @@
 # Pan-Primate Reference Genome Project (PanPrimate-T2T)
 
-Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The Pan-Primate Reference Genome Project (PanPrimate-T2T) addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
+Of the approximately 500 species of Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The Pan-Primate Reference Genome Project (PanPrimate-T2T) addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
 
 All samples are derived from established cell lines maintained by the Coriell Institute for Medical Research, ensuring renewable biological resources and long-term reproducibility.
 
