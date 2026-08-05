@@ -1,6 +1,6 @@
 # Species
 
-One subpage per species — photo, scientific/common names, and assembly details/status. For the full technical record (file locations, versions, raw data), see [../README_dataset.md](../README_dataset.md) and [../manifests/sample_data_manifest.csv](../manifests/sample_data_manifest.csv); this section is a browsable, human-readable index into that data.
+One subpage per species — photo, scientific/common names, and assembly details/status. For the full technical record (file locations, versions, raw data), see [../README_dataset.md](../README_dataset.md) and [../manifests/sample_data_manifest.csv](../manifests/sample_data_manifest.csv).
 
 ## Phase 1
 | <span style="white-space: nowrap;">Species</span> | <span style="white-space: nowrap;">Scientific name</span> | <span style="white-space: nowrap;">IUCN Red List</span> | <span style="white-space: nowrap;">Accession ID</span> | <span style="white-space: nowrap;">Sex</span> | <span style="white-space: nowrap;">Status</span> |
