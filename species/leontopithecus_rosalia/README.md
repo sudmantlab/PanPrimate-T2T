@@ -28,12 +28,12 @@
 
 ## Sequencing details
 
-| Platform | Coverage / Number of reads |
+| Platform | Coverage / Millions of reads |
 | --- | --- |
-| PacBio HiFi | |
-| ONT | |
-| Hi-C (chromatin capture) | |
-| Kinnex RNA | |
+| PacBio HiFi | 64x |
+| ONT | 61x |
+| Hi-C (chromatin capture) | 709M reads |
+| Kinnex RNA | 18M reads |
 
 ## Genome quality
 

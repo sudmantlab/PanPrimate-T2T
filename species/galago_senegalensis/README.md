@@ -28,7 +28,7 @@
 
 ## Sequencing details
 
-| Platform | Coverage / Number of reads |
+| Platform | Coverage / Millions of reads |
 | --- | --- |
 | PacBio HiFi | |
 | ONT | |
