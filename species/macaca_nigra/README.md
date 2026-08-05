@@ -24,7 +24,7 @@
 
 | | |
 | --- | --- |
-| IUCN status | |
+| IUCN status | [Critically Endangered](https://www.iucnredlist.org/species/12556/17950422) |
 
 ## Sequencing details
 
@@ -37,12 +37,12 @@
 
 ## Genome quality
 
-| Metric | Value |
-| --- | --- |
-| N50 (hap1) | TBD |
-| N50 (hap2) | TBD |
-| QV (Merqury) | TBD |
-| BUSCO complete | TBD |
+| Metric | Hap1 | Hap2 |
+| --- | --- | --- |
+| Genome size (Gbp) | | |
+| contig N50 (Mbp) | | |
+| BUSCO | | |
+| QV | | |
 
 ## Genome Version History
 
