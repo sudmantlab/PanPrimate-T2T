@@ -1,8 +1,8 @@
 # Pan-Primate Reference Genome Project (PanPrimate-T2T)
 
-Of the approximately 500 species of Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The Pan-Primate Reference Genome Project (PanPrimate-T2T) addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
+Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The **Pan-Primate Reference Genome Project (PanPrimate-T2T)** addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~50 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
 
-All samples are derived from established cell lines maintained by the Coriell Institute for Medical Research, ensuring renewable biological resources and long-term reproducibility.
+All samples are derived from established cell lines maintained by the **Coriell Institute for Medical Research**, ensuring renewable biological resources and long-term reproducibility.
 
 ---
 
@@ -10,20 +10,20 @@ All samples are derived from established cell lines maintained by the Coriell In
 
 Assemblies are generated using a standardized multi-platform sequencing pipeline:
 
-- **Sequencing:** PacBio HiFi long reads, Oxford Nanopore (ONT) ultra-long reads, chromatin conformation capture (Omni-C or Pore-C), and PacBio Kinnex full-length transcriptomics.
+- **Sequencing:** PacBio HiFi long reads, Oxford Nanopore (ONT) ultra-long reads, chromatin conformation capture (currently Omni-C; future species may use Pore-C or other methods), and PacBio Kinnex full-length transcriptomics.
 - **Assembly & Curation:** Assembled with [Verkko](https://github.com/marbl/verkko) and [hifiasm](https://github.com/chhylp123/hifiasm), scaffolded with [YaHS](https://github.com/c-zhou/yahs), and manually curated.
 
 This uniform approach resolves complex genomic regions-including centromeres, segmental duplications, immune loci, and sex chromosomes. Released datasets include haplotype-resolved assemblies, gene annotations, structural and small variant call sets, read alignments, and quality metrics.
 
 The complete collection - spanning raw sequencing signals through whole-genome alignments - is expected to total **180–220 TB**.
 
-- **Analysis Pipelines:** See [analyses/README.md](analyses/README.md) for workflows covering assembly, annotation, multi-sequence alignment, and anaysies performed as part of our publications.
+- **Analysis Pipelines:** See [analyses/README.md](analyses/README.md) for workflows covering whole-genome alignment, structural variation, complex loci, functional annotation, and AI benchmarks.
 
 ---
 
 ## Species List & Data Access
 
-- **Background & Biological Context:** See the [Species information](species/README.md) for species listings, taxonomy, and cell line details.
+- **Background & Biological Context:** See [species/](species/README.md) in this repository for photos, names, IUCN status, and assembly status per species.
 - **Dataset Manifests:** See [README_dataset.md](README_dataset.md) and [manifests/sample_data_manifest.csv](manifests/sample_data_manifest.csv) for per-sample metadata, accessions, and file locations. For HAL and other multi-species comparative data, see [comparative/README.md](comparative/README.md).
 
 ### Cloud & Public Repository Access
@@ -40,6 +40,7 @@ aws s3 ls s3://primate-t2t-genomics-open/species_data/ --no-sign-request
 Full bucket layout, species IDs, and per-sample metadata: [README_dataset.md](README_dataset.md).
 
 ---
+
 
 ## Data Reuse and License
 All data is released to the public under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
