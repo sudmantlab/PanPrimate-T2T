@@ -37,12 +37,13 @@
 
 ## Genome quality
 
-| Metric | Value |
-| --- | --- |
-| N50 (hap1) | TBD |
-| N50 (hap2) | TBD |
-| QV (Merqury) | TBD |
-| BUSCO complete | TBD |
+subl macaca_nemestrina/README.md
+| Metric | Hap1 | Hap2 |
+| --- | --- | --- |
+| Genome size (Gbp) | 3.12 | 3.12 |
+| contig N50 (Mbp) | 154.85 | 159.88 |
+| BUSCO | complete single: 99.21%<br>complete duplicate: 0.76%<br>total frag: 0.02%<br>missing: 0.02% | complete single: 99.21%<br>complete duplicate: 0.75%<br>total frag: 0.01%<br>missing: 0.03% |
+| QV | 55.5 | 57.8 |
 
 ## Genome Version History
 

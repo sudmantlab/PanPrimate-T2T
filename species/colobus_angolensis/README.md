@@ -37,12 +37,12 @@
 
 ## Genome quality
 
-| Metric | Value |
-| --- | --- |
-| N50 (hap1) | TBD |
-| N50 (hap2) | TBD |
-| QV (Merqury) | TBD |
-| BUSCO complete | TBD |
+| Metric | Hap1 | Hap2 |
+| --- | --- | --- |
+| Genome size (Gbp) | 3.33 | 3.14 |
+| contig N50 (Mbp) | 152.82 | 163.85 |
+| BUSCO | complete single: 98.09%<br>complete duplicate: 1.75%<br>total frag: 0.04%<br>missing: 0.12% | complete single: 95.44%<br>complete duplicate: 1.77%<br>total frag: 0.04%<br>missing: 2.75% |
+| QV | 60.2 | 59.4 |
 
 ## Genome Version History
 
