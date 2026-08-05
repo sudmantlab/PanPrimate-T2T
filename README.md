@@ -17,14 +17,14 @@ This uniform approach resolves complex genomic regions-including centromeres, se
 
 The complete collection - spanning raw sequencing signals through whole-genome alignments - is expected to total **180–220 TB**.
 
-- **Analysis Pipelines:** See [`analyses/README.md`](analyses/README.md) for workflows covering assembly, annotation, multi-sequence alignment, and anaysies performed as part of our publications.
+- **Analysis Pipelines:** See [analyses/README.md](analyses/README.md) for workflows covering assembly, annotation, multi-sequence alignment, and anaysies performed as part of our publications.
 
 ---
 
 ## Species List & Data Access
 
-- **Background & Biological Context:** See the [Coriell Pan-Primate Genome Project Page](https://www.coriell.org/1/Pan-Primate-Genome-Project) for species listings, taxonomy, and cell line details.
-- **Dataset Manifests:** See [`README_dataset.md`](README_dataset.md) and [`manifests/sample_data_manifest.csv`](manifests/sample_data_manifest.csv) for per-sample metadata, accessions, and file locations. For HAL and other multi-species comparative data, see [`comparative/README.md`](comparative/README.md).
+- **Background & Biological Context:** See the [Species information](species/README.md) for species listings, taxonomy, and cell line details.
+- **Dataset Manifests:** See [README_dataset.md](README_dataset.md) and [manifests/sample_data_manifest.csv](manifests/sample_data_manifest.csv) for per-sample metadata, accessions, and file locations. For HAL and other multi-species comparative data, see [comparative/README.md](comparative/README.md).
 
 ### Cloud & Public Repository Access
 
@@ -37,7 +37,7 @@ Inspect the S3 bucket hierarchy via AWS CLI:
 aws s3 ls s3://primate-t2t-genomics-open/species_data/ --no-sign-request
 ```
 
-Full bucket layout, species IDs, and per-sample metadata: [`README_dataset.md`](README_dataset.md).
+Full bucket layout, species IDs, and per-sample metadata: [README_dataset.md](README_dataset.md).
 
 ---
 
