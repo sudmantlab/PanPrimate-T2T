@@ -1,9 +1,6 @@
-# Lar Gibbon
-
-*Hylobates lar*
+# *Hylobates lar*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
@@ -12,7 +9,10 @@
 | --- | --- |
 | Common name | Lar Gibbon |
 | Scientific name | *Hylobates lar* |
-| Sex | |
+| Clade | Lesser Ape |
+| Cell Type | Fibroblast |
+| Karyotype | 44,XX |
+| Sex | Female |
 | Status | in progress |
 | Latest genome version | — |
 | Accession ID | [PR00715](../../manifests/sample_data_manifest.csv) |

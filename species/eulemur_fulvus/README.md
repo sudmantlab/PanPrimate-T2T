@@ -1,17 +1,17 @@
-# Common Brown Lemur
-
-*Eulemur fulvus*
+# *Eulemur fulvus*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
 
 | | |
 | --- | --- |
-| Common name | Common Brown Lemur |
+| Common name | Brown Lemur |
 | Scientific name | *Eulemur fulvus* |
+| Clade | Lemur |
+| Cell Type | Fibroblast |
+| Karyotype | 52,XY |
 | Sex | Male |
 | Status | Complete, not yet public |
 | Latest genome version | — |

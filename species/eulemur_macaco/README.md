@@ -1,9 +1,6 @@
-# Black Lemur
-
-*Eulemur macaco*
+# *Eulemur macaco*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
@@ -12,6 +9,9 @@
 | --- | --- |
 | Common name | Black Lemur |
 | Scientific name | *Eulemur macaco* |
+| Clade | Lemur |
+| Cell Type | Fibroblast |
+| Karyotype | 44,XY |
 | Sex | Male |
 | Status | Complete, not yet public |
 | Latest genome version | — |

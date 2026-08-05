@@ -1,18 +1,18 @@
-# Vervet Monkey
-
-*Chlorocebus pygerythrus*
+# *Chlorocebus pygerythrus*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
 
 | | |
 | --- | --- |
-| Common name | Vervet Monkey |
+| Common name | Vervet |
 | Scientific name | *Chlorocebus pygerythrus* |
-| Sex | |
+| Clade | Old World Monkey |
+| Cell Type | Fibroblast |
+| Karyotype | 52,XY |
+| Sex | Male |
 | Status | in progress |
 | Latest genome version | — |
 | Accession ID | [PR01413](../../manifests/sample_data_manifest.csv) |

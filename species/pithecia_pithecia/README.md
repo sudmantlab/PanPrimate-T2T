@@ -1,9 +1,6 @@
-# White-faced Saki
-
-*Pithecia pithecia*
+# *Pithecia pithecia*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
@@ -12,6 +9,9 @@
 | --- | --- |
 | Common name | White-faced Saki |
 | Scientific name | *Pithecia pithecia* |
+| Clade | New World Monkey |
+| Cell Type | Fibroblast |
+| Karyotype | 48,XY |
 | Sex | Male |
 | Status | Complete, not yet public |
 | Latest genome version | — |

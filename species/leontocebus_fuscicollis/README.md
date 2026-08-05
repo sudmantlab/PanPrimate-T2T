@@ -1,24 +1,24 @@
-# Saddle-back Tamarin
-
-*Leontocebus fuscicollis*
+# *Leontocebus fuscicollis*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
 
 | | |
 | --- | --- |
-| Common name | Saddle-back Tamarin |
+| Common name | Saddleback Tamarin |
 | Scientific name | *Leontocebus fuscicollis* |
-| Sex | |
+| Clade | New World Monkey |
+| Cell Type | Fibroblast |
+| Karyotype | 46,XY |
+| Sex | Male |
 | Status | in progress |
 | Latest genome version | — |
 | Accession ID | [PR00677](../../manifests/sample_data_manifest.csv) |
 | NCBI BioSample | |
 | S3 Data Location | s3://primate-t2t-genomics-open/species_data/PR00677/ *(not yet public)* |
-| Project phase | 2 |
+| Project phase | 3 |
 
 ## IUCN Red List
 

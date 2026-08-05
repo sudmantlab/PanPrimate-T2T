@@ -1,9 +1,6 @@
-# Celebes Crested Macaque
-
-*Macaca nigra*
+# *Macaca nigra*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
@@ -12,7 +9,10 @@
 | --- | --- |
 | Common name | Celebes Crested Macaque |
 | Scientific name | *Macaca nigra* |
-| Sex | |
+| Clade | Old World Monkey |
+| Cell Type | Fibroblast |
+| Karyotype | 42,XY |
+| Sex | Male |
 | Status | in progress |
 | Latest genome version | — |
 | Accession ID | [PR00726](../../manifests/sample_data_manifest.csv) |

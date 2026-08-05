@@ -1,18 +1,18 @@
-# Senegal Galago
-
-*Galago senegalensis*
+# *Galago senegalensis*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
 
 | | |
 | --- | --- |
-| Common name | Senegal Galago |
+| Common name | Northern Lesser Galago |
 | Scientific name | *Galago senegalensis* |
-| Sex | |
+| Clade | Galagos/Lorises |
+| Cell Type | Fibroblast |
+| Karyotype | 38,XX |
+| Sex | Female |
 | Status | in progress |
 | Latest genome version | — |
 | Accession ID | [PR01034](../../manifests/sample_data_manifest.csv) |

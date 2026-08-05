@@ -1,9 +1,6 @@
-# Common Woolly Monkey
-
-*Lagothrix lagotricha*
+# *Lagothrix lagotricha*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
@@ -12,6 +9,9 @@
 | --- | --- |
 | Common name | Common Woolly Monkey |
 | Scientific name | *Lagothrix lagotricha* |
+| Clade | New World Monkey |
+| Cell Type | Fibroblast |
+| Karyotype | 62,XX |
 | Sex | Female |
 | Status | Complete, not yet public |
 | Latest genome version | — |

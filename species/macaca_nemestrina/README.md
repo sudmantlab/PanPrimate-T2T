@@ -1,9 +1,6 @@
-# Southern Pig-tailed Macaque
-
-*Macaca nemestrina*
+# *Macaca nemestrina*
 
 <img src="photo.jpg" width="400" height="300" style="object-fit: cover;">
-
 <!-- Drop this species' photo in this same folder as photo.jpg. Credit the source/license in Overview or here. -->
 
 ## Status
@@ -12,6 +9,9 @@
 | --- | --- |
 | Common name | Southern Pig-tailed Macaque |
 | Scientific name | *Macaca nemestrina* |
+| Clade | Old World Monkey |
+| Cell Type | Fibroblast |
+| Karyotype | 42,XX |
 | Sex | Female |
 | Status | Complete, not yet public |
 | Latest genome version | — |
