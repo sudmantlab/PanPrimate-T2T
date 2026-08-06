@@ -36,7 +36,7 @@ Since a HAL build spans many species and versions, one HAL path alone doesn't sa
 | --- | --- |
 | `build_id` | Primary key, e.g. `build3` |
 | `hal_path` | S3 path to the HAL file for this build |
-| `included_genome_ids` | Pipe-delimited (`\|`) list of every `genome_id` included in this build, e.g. `PR00232_2.0\|PR00036_1.0\|...` |
+| `included_genome_ids` | Colon-delimited (`:`) list of every `genome_id` included in this build, e.g. `PR00232_2.0:PR00036_1.0:...` |
 | `release_date` | When this build was published |
 | `notes` | Free text — e.g. "added Papio anubis" |
 
@@ -48,5 +48,5 @@ To find which exact assembly version of a species was used in a given HAL build,
 build_id,hal_path,included_genome_ids,release_date,notes
 build1,comparative/hal/all_species_build1.hal,PR00232_1.0,2026-01-15,Initial build — Drill only
 build2,comparative/hal/all_species_build2.hal,PR00232_1.1,2026-02-01,Drill re-curated (misjoin fix)
-build3,comparative/hal/all_species_build3.hal,PR00232_2.0|PR00036_1.0,2026-04-10,Drill v2.0 (new ONT data) + Olive Baboon added
+build3,comparative/hal/all_species_build3.hal,PR00232_2.0:PR00036_1.0,2026-04-10,Drill v2.0 (new ONT data) + Olive Baboon added
 ```

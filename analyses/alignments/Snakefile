@@ -120,7 +120,7 @@ rule record_comparative_manifest_row:
     output:
         row=f"results/{BUILD_ID}/comparative_manifest_row.csv",
     params:
-        included="|".join(g["genome_id"] for g in GENOMES.values()),
+        included=":".join(g["genome_id"] for g in GENOMES.values()),
         hal_path=f"comparative/hal/all_species_{BUILD_ID}.hal",
     shell:
         """
