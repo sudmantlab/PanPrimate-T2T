@@ -1,8 +1,8 @@
 # Pan-Primate Reference Genome Project (PanPrimate-T2T)
 
-> **⚠️ Placeholder data notice:** This repository is pre-release. NCBI BioProject/BioSample accessions and similar IDs shown throughout are placeholders, not real accessions — they will be replaced once samples are submitted to NCBI. *(Delete this notice once all placeholders are replaced with r=eal values.)*
+> **⚠️ Placeholder data notice:** This repository is pre-release. NCBI BioProject/BioSample accessions and similar IDs shown throughout are placeholders, not real accessions — they will be replaced once samples are submitted to NCBI. *(Delete this notice once all placeholders are replaced with real values.)*
 
-Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The **Pan-Primate Reference Genome Project (PanPrimate-T2T)** addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for 40 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
+Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The **Pan-Primate Reference Genome Project (PanPrimate-T2T)** addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for ~40 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
 
 All samples are derived from established cell lines maintained by the **Coriell Institute for Medical Research**, ensuring renewable biological resources and long-term reproducibility.
 
@@ -19,8 +19,7 @@ This uniform approach resolves complex genomic regions-including centromeres, se
 
 The complete collection - spanning raw sequencing signals through whole-genome alignments - is expected to total **130–180 TB**.
 
-- **Analysis Pipelines:** See [analyses/README.md](analyses/README.md) for workflows covering whole-genome alignment, structural variation, complex loci, functional annotation, and AI benchmarks.
-
+- **Analysis Pipelines:** See [analyses/README.md](analyses/README.md) for workflows covering whole-genome alignment, structural variation, complex loci, functional annotation, and AI benchmarks. For a step-by-step guide to querying and analyzing the data on AWS, see [`tutorials/getting_started_on_aws.md`](tutorials/getting_started_on_aws.md).
 ---
 
 ## Species List & Data Access
@@ -31,7 +30,7 @@ The complete collection - spanning raw sequencing signals through whole-genome a
 ### Cloud & Public Repository Access
 
 - **AWS Open Data:** Hosted for cloud-scale access without downloading multi-terabyte files.
-- **NCBI SRA / BioProject:** Archived under BioProject/BioSample accessions listed in `manifests/sample_data_manifest.csv`. <!-- TODO: add SRA/BioProject link once accessions are assigned -->
+- **NCBI SRA / BioProject:** Archived under BioProject/BioSample accessions listed in `manifests/sample_data_manifest.csv`.
 
 Inspect the S3 bucket hierarchy via AWS CLI:
 
