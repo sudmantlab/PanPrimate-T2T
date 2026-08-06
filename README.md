@@ -4,7 +4,6 @@
 
 Of the approximately 500 species in the order Primates, the vast majority still lack high-quality reference genomes-limiting our ability to study primate biology, conservation, evolution, and human health. The **Pan-Primate Reference Genome Project (PanPrimate-T2T)** addresses this gap by generating chromosome-scale, phased *de novo* genome assemblies and annotations for 40 primate species spanning roughly 70 million years of evolutionary diversification across all major lineages.
 
-
 All samples are derived from established cell lines maintained by the **Coriell Institute for Medical Research**, ensuring renewable biological resources and long-term reproducibility.
 
 ---
@@ -43,7 +42,6 @@ aws s3 ls s3://primate-t2t-genomics-open/species_data/ --no-sign-request
 Full bucket layout, species IDs, and per-sample metadata: [README_dataset.md](README_dataset.md).
 
 ---
-
 
 ## Data Reuse and License
 All data is released to the public under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
