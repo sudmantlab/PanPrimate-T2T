@@ -1,5 +1,7 @@
 # PanPrimate-T2T dataset
 
+> **⚠️ Placeholder data notice:** This repository is pre-release. NCBI BioProject/BioSample accessions and similar IDs shown throughout (including in the manifest and JSON examples below) are placeholders, not real accessions — they will be replaced once samples are submitted to NCBI. *(Delete this notice once all placeholders are replaced with real values.)*
+
 ## Species ID
 
 | species_id | genus | species | common_name | accession_id | assembly_status |
