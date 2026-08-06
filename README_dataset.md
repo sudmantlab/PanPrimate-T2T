@@ -79,6 +79,8 @@ aws s3 cp --no-sign-request \
 
 ## AWS Access & Compute
 
+For a complete, step-by-step walkthrough (listing data, streaming regions, running compute), see [`tutorials/getting_started_on_aws.md`](tutorials/getting_started_on_aws.md). The examples below are quick reference.
+
 All indexed files (BAM `.bai`, bgzip VCF/GFF3/BED `.tbi`, bgzip FASTA `.fai`) support HTTP byte-range requests directly from S3 - you can pull a single genomic interval without downloading the file, using standard tools:
 
 ```bash
@@ -225,7 +227,7 @@ Note: `hap1`/`hap2` labels follow the assembler's own haplotype assignment (Verk
 
 ## Sample metadata
 
-Every sample has a full metadata record at `metadata/<accession_id>_sample_metadata.json`. Real-format example: [`examples/mandrillus_leucophaeus_sample_metadata.json`](examples/mandrillus_leucophaeus_sample_metadata.json).
+Every sample has a full metadata record at `metadata/<accession_id>_sample_metadata.json`. Real-format example: [`examples/PR00232_sample_metadata.json`](examples/PR00232_sample_metadata.json).
 
 ```json
 {
