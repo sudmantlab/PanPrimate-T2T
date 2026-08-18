@@ -2,7 +2,7 @@
 
 Integration of PacBio Kinnex full-length transcriptomics and comparative pipelines (Ensembl VEP, OrthoFinder) to map gene family evolution, functional variant constraint, and regulatory sequence conservation.
 
-**Inputs:** Kinnex RNA raw reads (`raw_kinnex_rna`), gene annotations (`annotation_gff3`), and variant calls (`variants_vcf`) from `../../manifests/sample_data_manifest.csv`.
+**Inputs:** Kinnex RNA raw reads (`raw_kinnex_rna`), gene annotations (`annotation_pri_gff3`/`annotation_alt_gff3`), and variant calls (`variants`) from `../../manifests/sample_data_manifest.csv`.
 
 **Outputs:** refined gene models, ortholog groups, variant constraint scores.
 
