@@ -17,7 +17,7 @@ Assemblies are generated using a standardized multi-platform sequencing pipeline
 
 This uniform approach resolves complex genomic regions-including centromeres, segmental duplications, immune loci, and sex chromosomes. Released datasets include haplotype-resolved assemblies, gene annotations, structural and small variant call sets, read alignments, and quality metrics.
 
-The complete collection - spanning raw sequencing signals through whole-genome alignments - is expected to total **130–180 TB**.
+The complete collection - spanning raw sequencing signals through whole-genome alignments - is expected to total **~130 TB**.
 
 - **Analysis Pipelines:** See [analyses/README.md](analyses/README.md) for workflows covering whole-genome alignment, structural variation, complex loci, functional annotation, and AI benchmarks. For a step-by-step guide to querying and analyzing the data on AWS, see [`tutorials/getting_started_on_aws.md`](tutorials/getting_started_on_aws.md), or start with the interactive [`tutorials/get-to-know-a-dataset.ipynb`](tutorials/get-to-know-a-dataset.ipynb) notebook.
 
